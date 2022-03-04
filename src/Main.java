@@ -42,9 +42,11 @@ public class Main {
         devCide.inscreverBootcamp(bootcamp);
         System.out.println("Conteúdo Inscritos " + devCide.getNome()+" - " + devCide.getConteudosInscritos());
         devCide.progredir();
+        devCide.progredir();
         System.out.println("-");
         System.out.println("Conteúdo Inscritos " + devCide.getNome()+" - " + devCide.getConteudosInscritos());
         System.out.println("Conteúdo Concluídos " + devCide.getNome()+" - " + devCide.getConteudosConcluidos());
+        System.out.println("XP: "+devCide.calcularTotalXp());
 
         System.out.println("-----------------");
 
@@ -52,8 +54,11 @@ public class Main {
         devJoyce.setNome("Joyce");
         devJoyce.inscreverBootcamp(bootcamp);
         System.out.println("-");
+        System.out.println("-");
+        System.out.println("-");
         System.out.println("Conteúdo Inscritos " + devJoyce.getConteudosInscritos());
         System.out.println("Conteúdo Concluídos " + devJoyce.getConteudosConcluidos());
+        System.out.println("XP: "+devJoyce.calcularTotalXp());
 
 
 
