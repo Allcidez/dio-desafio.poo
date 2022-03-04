@@ -1,4 +1,4 @@
-package br.com.dio.desafio;
+package br.com.dio.desafio.dominio;
 
 import java.util.LinkedHashSet;
 import java.util.Objects;
@@ -62,7 +62,9 @@ public class Dev {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Dev dev = (Dev) o;
-        return Objects.equals(nome, dev.nome) && Objects.equals(conteudosInscritos, dev.conteudosInscritos) && Objects.equals(conteudosConcluidos, dev.conteudosConcluidos);
+        return Objects.equals(nome, dev.nome)
+                && Objects.equals(conteudosInscritos, dev.conteudosInscritos)
+                && Objects.equals(conteudosConcluidos, dev.conteudosConcluidos);
     }
 
     @Override
