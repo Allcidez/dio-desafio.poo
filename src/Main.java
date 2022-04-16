@@ -59,9 +59,5 @@ public class Main {
         System.out.println("Conteúdo Inscritos " + devJoyce.getConteudosInscritos());
         System.out.println("Conteúdo Concluídos " + devJoyce.getConteudosConcluidos());
         System.out.println("XP: "+devJoyce.calcularTotalXp());
-
-
-
-
     }
 }
